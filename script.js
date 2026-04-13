@@ -4,37 +4,37 @@ const praticasData = [
         titulo: "Agricultura Regenerativa",
         descricao: "Técnicas que restauram a saúde do solo e aumentam a biodiversidade",
         imagem: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=300&h=200&fit=crop",
-        cor: "#4caf50"
+        cor: "#a0522d"
     },
     {
         titulo: "Energia Solar",
         descricao: "100% da energia utilizada vem de fontes renováveis",
         imagem: "https://images.unsplash.com/photo-1509391366360-2e959784a276?w=300&h=200&fit=crop",
-        cor: "#ff9800"
+        cor: "#d4c5a9"
     },
     {
         titulo: "Captação de Água",
         descricao: "Sistemas inteligentes para reuso e conservação hídrica",
         imagem: "https://images.unsplash.com/photo-1536599424071-0b215a388ba7?w=300&h=200&fit=crop",
-        cor: "#2196f3"
+        cor: "#c4b493"
     },
     {
         titulo: "Compostagem",
         descricao: "Transformação de resíduos orgânicos em adubo natural",
         imagem: "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=300&h=200&fit=crop",
-        cor: "#8bc34a"
+        cor: "#8b6914"
     },
     {
         titulo: "Rotação de Culturas",
         descricao: "Prática que mantém o solo fértil e reduz pragas",
         imagem: "https://images.unsplash.com/photo-1592982537444-7440770cbfd9?w=300&h=200&fit=crop",
-        cor: "#cddc39"
+        cor: "#a0522d"
     },
     {
         titulo: "Agricultura de Precisão",
         descricao: "Tecnologia para otimizar recursos e reduzir desperdícios",
         imagem: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=300&h=200&fit=crop",
-        cor: "#009688"
+        cor: "#d4c5a9"
     }
 ];
 
@@ -114,7 +114,7 @@ function setupMobileMenu() {
             navLinks.style.top = '70px';
             navLinks.style.left = '0';
             navLinks.style.right = '0';
-            navLinks.style.backgroundColor = 'white';
+            navLinks.style.backgroundColor = '#faf7f2';
             navLinks.style.padding = '2rem';
             navLinks.style.textAlign = 'center';
             navLinks.style.boxShadow = '0 10px 20px rgba(0,0,0,0.1)';
@@ -147,10 +147,10 @@ function setupHeaderScroll() {
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 100) {
-            header.style.background = 'rgba(255, 255, 255, 0.98)';
+            header.style.background = 'rgba(250, 247, 242, 0.98)';
             header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
         } else {
-            header.style.background = 'rgba(255, 255, 255, 0.95)';
+            header.style.background = 'rgba(250, 247, 242, 0.95)';
         }
     });
 }
